@@ -1,0 +1,1144 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1251">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoBodyTextIndent2, li.MsoBodyTextIndent2, div.MsoBodyTextIndent2
+	{mso-style-link:"Основной текст с отступом 2 Знак";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:14.15pt;
+	line-height:200%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.2
+	{mso-style-name:"Основной текст с отступом 2 Знак";
+	mso-style-link:"Основной текст с отступом 2";
+	font-family:"Times New Roman",serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 42.5pt 2.0cm 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=RU>
+
+<div class=WordSection1>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><b><span
+style='font-size:14.0pt'>Системы линейных уравнений. Правило Крамера. Метод
+Гаусса. Матричный способ</span></b></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><b><span
+style='font-size:10.0pt'>&nbsp;</span></b></p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'><b><span style='font-size:14.0pt'>Пример 1</span></b>.
+Решить систему:</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;line-height:
+normal'><span style='position:relative;top:25.0pt'><img width=129 height=75
+src="СЛУ.files/image001.png"></span></p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;line-height:
+normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;line-height:
+normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;line-height:
+normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;line-height:
+normal'><i>1</i>-<i>й способ.</i> По формулам Крамера:</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:12.0pt'><img width=159 height=41
+src="СЛУ.files/image002.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;line-height:normal'>где <span
+style='position:relative;top:2.0pt'><img width=15 height=17
+src="СЛУ.files/image003.png"></span>-главный определитель системы, столбцы которого
+есть коэффициенты при неизвестных</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=160 height=75
+src="СЛУ.files/image004.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;line-height:normal'><span
+style='position:relative;top:3.0pt'><img width=23 height=19
+src="СЛУ.files/image005.png"></span>      -вспомогательный определитель,
+который получается из главного заменой 1-го столбца (коэффициентов при <i><span
+lang=EN-US>x</span></i>) столбцом свободных членов.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=167 height=75
+src="СЛУ.files/image006.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;line-height:
+normal'>Аналогично получаем <span style='position:relative;top:5.0pt'><img
+width=23 height=21 src="СЛУ.files/image007.png"></span>и<span style='position:
+relative;top:2.0pt'><img width=21 height=17 src="СЛУ.files/image008.png"></span>:</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=345 height=75
+src="СЛУ.files/image009.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:12.0pt'><img width=351 height=41
+src="СЛУ.files/image010.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;line-height:normal'>Если <span
+style='position:relative;top:3.0pt'><img width=40 height=19
+src="СЛУ.files/image011.png"></span>, то система имеет единственное решение,
+если <span style='position:relative;top:3.0pt'><img width=39 height=19
+src="СЛУ.files/image012.png"></span>, а хотя бы один из <span style='position:
+relative;top:5.0pt'><img width=67 height=21 src="СЛУ.files/image013.png"></span>не
+равен 0, то система не имеет решений. Если <span style='position:relative;
+top:5.0pt'><img width=140 height=21 src="СЛУ.files/image014.png"></span>, то
+система имеет множество решений.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;line-height:
+normal'><i>2-й способ. </i>Метод Гаусса, или метод исключения неизвестных.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;line-height:
+normal'>Рассмотрим сначала несколько понятий.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'><b><span style='font-size:14.0pt'>Определение</span></b><span
+style='font-size:14.0pt'>.</span><span style='font-size:10.0pt'> </span>Рангом
+матрицы <span style='position:relative;top:5.0pt'><img width=27 height=21
+src="СЛУ.files/image015.png"></span>называется наивысший порядок её минора,
+отличного от нуля.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'><b><span style='font-size:14.0pt'>Пример</span></b><span
+style='font-size:14.0pt'>.</span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=135 height=75
+src="СЛУ.files/image016.png"></span></p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;line-height:
+normal'>Вычислим все миноры третьего порядка:</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:53.0pt'><img width=276 height=149
+src="СЛУ.files/image017.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;line-height:
+normal'>Вычислим минор второго порядка:</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:15.0pt'><img width=131 height=48
+src="СЛУ.files/image018.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;line-height:
+normal'>поэтому ранг матрицы <i><span lang=EN-US>A</span></i> равен 2:</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;line-height:
+normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:5.0pt'><img width=119 height=21
+src="СЛУ.files/image019.png"></span>.</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;line-height:normal'>Рассмотрим более
+простой способ вычисления ранга матрицы, основанный на приведении матрицы к
+ступенчатому виду.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'><b><span style='font-size:14.0pt'>Определение</span></b><span
+style='font-size:14.0pt'>.</span><span style='font-size:10.0pt'> </span>Матрицу
+<i>А</i> называют ступенчатой, если</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>а)
+любая её строка имеет хотя бы один отличный от нуля элемент,</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>б)
+первый отличный от нуля элемент каждой её строки, начиная со второй, расположен
+правее неравного нулю элемента предыдущей строки.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'><b><span style='font-size:14.0pt'>Пример.</span></b></p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'><b><span style='font-size:14.0pt'>&nbsp;</span></b></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=333 height=75
+src="СЛУ.files/image020.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'><b><span
+style='font-size:14.0pt'>Определение</span></b><span style='font-size:14.0pt'>.</span>
+Элементарными преобразованиями матрицы называются следующие преобразования её
+строки:</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>а) перестановка двух каких-нибудь строк;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>б) умножение элементов какой-либо строки на число,
+отличное от нуля;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>в)
+прибавление к элементам какой-либо строки соответствующих элементов другой
+строки, умноженных на некоторое число.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'><b><span style='font-size:14.0pt'>Пример.</span></b></p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'><b><span style='font-size:14.0pt'>&nbsp;</span></b></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=276 height=75
+src="СЛУ.files/image021.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=397 height=75
+src="СЛУ.files/image022.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=263 height=75
+src="СЛУ.files/image023.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Из последней матрицы (ступенчатый вид) видно, что <span
+style='position:relative;top:2.0pt'><img width=36 height=17
+src="СЛУ.files/image024.png"></span>.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Приведем несколько утверждений без доказательств.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'><b><span
+style='font-size:14.0pt'>Теорема 1</span></b><span style='font-size:14.0pt'>.</span>
+При элементарных преобразованиях и отбрасывании нулевой строки ранг матрицы не
+изменяется.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'><b><span
+style='font-size:14.0pt'>Теорема 2</span></b><span style='font-size:14.0pt'>.</span><span
+style='font-size:10.0pt'> </span>Всякую ненулевую матрицу можно привести к
+ступенчатому виду с помощью элементарных преобразований и выбрасывания нулевых
+строк.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'><b><span
+style='font-size:14.0pt'>Теорема 3</span></b><span style='font-size:14.0pt'>.</span><span
+style='font-size:10.0pt'> </span>Ранг ненулевой матрицы равен числу строк её
+ступенчатого вида.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Рассмотрим систему:</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='font-size:10.0pt'><span style='position:relative;top:25.0pt'><img
+width=155 height=75 src="СЛУ.files/image025.png"></span></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'><b><span
+style='font-size:14.0pt'>Определение.</span></b><span style='font-size:10.0pt'>
+</span>Матрица, составленная из коэффициентов при неизвестных системы,
+называется матрицей системы.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'><b><span
+style='font-size:14.0pt'>Определение.</span></b><span style='font-size:10.0pt'>
+</span>Матрица называется расширенной матрицей      системы, если к матрице <span
+style='position:relative;top:2.0pt'><img width=16 height=17
+src="СЛУ.files/image026.png"></span> присоединить  столбец из свободных членов
+системы.</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='font-size:10.0pt'><span style='position:relative;top:25.0pt'><img
+width=161 height=75 src="СЛУ.files/image027.png"></span>.</span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>Расширенная
+матрица- это закодированная запись системы. Строки матрицы соответствуют
+уравнениям системы. Умножение уравнения на число и сложение этого произведения
+с другим уравнением эквивалентно  умножению строки матрицы на это число и
+почленному сложению произведения с другой строкой матрицы. Таким образом,
+работу с уравнениями мы можем заменить работой со строками матрицы.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>Эффективным
+методом решения и исследования системы линейных уравнений является метод
+исключения неизвестных, называемый также методом Гаусса. Он состоит в том, что
+данная система линейных уравнений преобразуется в равносильную ей систему
+ступенчатого вида (или, в частности,  треугольную систему), которая легко
+исследуется и решается. Применение метода Гаусса не зависит ни от числа
+уравнений, ни от числа неизвестных в системе.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>Рассмотрим
+систему <span style='position:relative;top:3.0pt'><img width=17 height=15
+src="СЛУ.files/image028.png"></span> линейных уравнений с <span
+style='position:relative;top:3.0pt'><img width=13 height=15
+src="СЛУ.files/image029.png"></span> неизвестными <span style='position:relative;
+top:6.0pt'><img width=71 height=24 src="СЛУ.files/image030.png"></span>,которую
+запишем в виде расширенной матрицы:</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=168 height=75
+src="СЛУ.files/image031.png"></span>.</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>Заметим,
+что иногда могут встречаться уравнения, все коэффициенты которых (т.е. соответствующая
+строка матрицы) равны 0:</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:6.0pt'><img width=175 height=24
+src="СЛУ.files/image032.png"></span>.</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>Если
+в этом уравнении <span style='position:relative;top:3.0pt'><img width=37
+height=19 src="СЛУ.files/image033.png"></span>, то ему, очевидно, не
+удовлетворяют никакие значения неизвестных, и система, содержащая хотя бы одно
+такое уравнение, несовместна, т.е. не имеет решения. Если же <span
+style='position:relative;top:3.0pt'><img width=37 height=19
+src="СЛУ.files/image034.png"></span>, то ему удовлетворяют любые решения
+неизвестных, т.е. рассматриваемое уравнение является тождеством и его можно
+удалить из системы.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>Элементарные
+преобразования матрицы, рассмотренные ранее, можно производить и над расширенной
+матрицей системы, поэтому в дальнейшем будем говорить  об элементарных
+преобразованиях, не делая различий между уравнениями системы и строками
+расширенной матрицы.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>Разберём
+идею метода Гаусса на конкретных примерах.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'><b>&nbsp;</b></p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'><b><span style='font-size:10.0pt'>&nbsp;</span></b></p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'><b><span style='font-size:14.0pt'>Пример 2.</span></b></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=185 height=75
+src="СЛУ.files/image035.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Решение.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'><i><span lang=EN-US>I</span></i><i> этап: </i>запишем
+систему в виде расширенной матрицы</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=211 height=75
+src="СЛУ.files/image036.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'><i><span
+lang=EN-US>II</span></i><i> этап:</i> исключим с помощью первого уравнения <i><span
+lang=EN-US>x</span></i> из остальных уравнений. Для этого домножим первую
+строку на –3 и сложим её со второй, затем умножим первую строку на –2 и сложим
+её с третьей.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Получим</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=163 height=75
+src="СЛУ.files/image037.png"></span>.</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>Последняя
+строка состоит из нулей, если её расписать в виде уравнения, то получим</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:6.0pt'><img width=195 height=24
+src="СЛУ.files/image038.png"></span>.</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'> Это
+уравнение является тождеством, поэтому его нет смысла оставлять в системе.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Раскодируем полученную матрицу:</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:16.0pt'><img width=165 height=51
+src="СЛУ.files/image039.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Выразим из второго уравнения <span
+style='position:relative;top:6.0pt'><img width=17 height=24
+src="СЛУ.files/image040.png"></span>:</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:12.0pt'><img width=161 height=41
+src="СЛУ.files/image041.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>Подставим
+в первое уравнение вместо <span style='position:relative;top:6.0pt'><img
+width=17 height=24 src="СЛУ.files/image040.png"></span>его выражение через<span
+style='position:relative;top:5.0pt'><img width=17 height=23
+src="СЛУ.files/image042.png"></span> и выразим <span style='position:relative;
+top:5.0pt'><img width=16 height=23 src="СЛУ.files/image043.png"></span>:</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:12.0pt'><img width=192 height=41
+src="СЛУ.files/image044.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:12.0pt'><img width=121 height=41
+src="СЛУ.files/image045.png"></span>,</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:12.0pt'><img width=132 height=41
+src="СЛУ.files/image046.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Ответ:</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:27.0pt'><img width=140 height=80
+src="СЛУ.files/image047.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>Получим
+так называемое общее решение системы, которое является формулой для получения
+конкретных её решений. Эти конкретные решения системы называются частными
+решениями. Получают их следующим образом: придавая переменным <span
+style='position:relative;top:5.0pt'><img width=17 height=23
+src="СЛУ.files/image048.png"></span>,<span style='position:relative;top:5.0pt'><img
+width=17 height=23 src="СЛУ.files/image042.png"></span>произвольные значения и
+находя по этим значениям <span style='position:relative;top:5.0pt'><img
+width=16 height=23 src="СЛУ.files/image043.png"></span>и<span style='position:
+relative;top:6.0pt'><img width=17 height=24 src="СЛУ.files/image040.png"></span>,
+всякий раз находят решение системы. Так как <span style='position:relative;
+top:5.0pt'><img width=17 height=23 src="СЛУ.files/image048.png"></span>и<span
+style='position:relative;top:5.0pt'><img width=17 height=23
+src="СЛУ.files/image042.png"></span>можно придавать произвольные значения, то
+эти переменные называются свободными. Неизвестные <span style='position:relative;
+top:5.0pt'><img width=16 height=23 src="СЛУ.files/image043.png"></span>и<span
+style='position:relative;top:6.0pt'><img width=17 height=24
+src="СЛУ.files/image040.png"></span>, значения которых вычисляются по значениям<span
+style='position:relative;top:5.0pt'><img width=17 height=23
+src="СЛУ.files/image048.png"></span>и<span style='position:relative;top:5.0pt'><img
+width=17 height=23 src="СЛУ.files/image042.png"></span>, называются базисными.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Получим одно из частных решений в предыдущем
+примере. Пусть<span style='position:relative;top:5.0pt'><img width=43
+height=23 src="СЛУ.files/image049.png"></span>, а<span style='position:relative;
+top:5.0pt'><img width=40 height=23 src="СЛУ.files/image050.png"></span>, тогда <span
+style='position:relative;top:6.0pt'><img width=49 height=24
+src="СЛУ.files/image051.png"></span>,<span style='position:relative;top:5.0pt'><img
+width=41 height=23 src="СЛУ.files/image052.png"></span>.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Ответ:<span style='position:relative;top:5.0pt'><img
+width=59 height=23 src="СЛУ.files/image053.png"></span>-частное решение.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'><b><span style='font-size:14.0pt'>Пример 3.</span></b></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=135 height=75
+src="СЛУ.files/image054.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Решение. </p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>Закодируем
+систему и приведем матрицу к треугольному виду</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=308 height=75
+src="СЛУ.files/image055.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:5.0pt'><img width=12 height=23
+src="СЛУ.files/image056.png"></span><span style='position:relative;top:25.0pt'><img
+width=245 height=75 src="СЛУ.files/image057.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Таким образом, заданная система равносильна
+следующей:</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>                                                                                                                                                   <span
+style='position:relative;top:25.0pt'><img width=133 height=75
+src="СЛУ.files/image058.png"></span></p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>Находим
+<span style='position:relative;top:6.0pt'><img width=40 height=24
+src="СЛУ.files/image059.png"></span> из последнего уравнения, затем <span
+style='position:relative;top:6.0pt'><img width=152 height=24
+src="СЛУ.files/image060.png"></span>из второго, и наконец, из первого:</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:5.0pt'><img width=149 height=23
+src="СЛУ.files/image061.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Ответ:<span style='position:relative;top:5.0pt'><img
+width=41 height=23 src="СЛУ.files/image062.png"></span>.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'><b><span style='font-size:14.0pt'>Пример 4.</span></b></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=140 height=75
+src="СЛУ.files/image063.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Выпишем расширенную матрицу и упростим её:</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=413 height=75
+src="СЛУ.files/image064.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Полученная система</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=141 height=75
+src="СЛУ.files/image065.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;line-height:normal'>несовместна, так как
+её последнее уравнение не имеет смысла. Следовательно, исходная система также
+несовместна.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<b><span style='font-size:10.0pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span></b>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><b><span
+style='font-size:14.0pt'>Матричный способ решения систем.</span></b></p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Рассмотрим систему трех уравнений с тремя
+неизвестными:</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=155 height=75
+src="СЛУ.files/image066.png"></span></p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Введем следующие обозначения:</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=133 height=75
+src="СЛУ.files/image067.png"></span>– матрица коэффициентов системы</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'><img width=132 height=84
+src="СЛУ.files/image068.png" align=left hspace=12 alt=" "></p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>      –
+столбец неизвестных и столбец свободных членов, соответственно.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Тогда систему можно записать в матричной форме: <span
+style='position:relative;top:2.0pt'><img width=56 height=17
+src="СЛУ.files/image069.png"></span></p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Пусть матрица <span style='position:relative;
+top:2.0pt'><img width=16 height=17 src="СЛУ.files/image026.png"></span>имеет
+обратную матрицу<span style='position:relative;top:2.0pt'><img width=25
+height=20 src="СЛУ.files/image070.png"></span>.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Умножим матричное уравнение на <span
+style='position:relative;top:2.0pt'><img width=25 height=20
+src="СЛУ.files/image070.png"></span>,получим <span style='position:relative;
+top:2.0pt'><img width=97 height=20 src="СЛУ.files/image071.png"></span>.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Заметив, что <span style='position:relative;
+top:2.0pt'><img width=119 height=20 src="СЛУ.files/image072.png"></span>,
+получим <span style='position:relative;top:2.0pt'><img width=67 height=20
+src="СЛУ.files/image073.png"></span>-решение матричного уравнения.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>Переходя
+к координатной записи в последнем равенстве, выпишем решение исходной системы
+уравнений.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><b><span
+style='font-size:14.0pt'>Построение обратной матрицы</span></b></p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'><span
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>Обратная
+матрица существует только для квадратной матрицы, определитель которой не равен
+нулю. Такая матрица называется невырожденной.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>Пусть матрица <span
+style='position:relative;top:25.0pt'><img width=133 height=75
+src="СЛУ.files/image067.png"></span>- невырождена, т.е.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=148 height=75
+src="СЛУ.files/image074.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>Построим
+союзную матрицу <span style='position:relative;top:2.0pt'><img width=16
+height=21 src="СЛУ.files/image075.png"></span>, которая составлена из
+алгебраических дополнений элементов матрицы <span style='position:relative;
+top:2.0pt'><img width=16 height=17 src="СЛУ.files/image026.png"></span>, причём
+в столбцах матрицы <span style='position:relative;top:2.0pt'><img width=16
+height=17 src="СЛУ.files/image026.png"></span>записываются алгебраические
+дополнения соответствующих строк этой матрицы.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-align:
+justify;text-justify:inter-ideograph;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=128 height=75
+src="СЛУ.files/image076.png"></span>, где</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:16.0pt'><img width=315 height=51
+src="СЛУ.files/image077.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:16.0pt'><img width=328 height=51
+src="СЛУ.files/image078.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:16.0pt'><img width=313 height=51
+src="СЛУ.files/image079.png"></span>.</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Обратная матрица <span style='position:relative;
+top:2.0pt'><img width=25 height=20 src="СЛУ.files/image070.png"></span>имеет
+вид</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=195 height=75
+src="СЛУ.files/image080.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Решим систему (см. пример 1) матричным способом.</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=129 height=75
+src="СЛУ.files/image001.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Здесь</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=275 height=75
+src="СЛУ.files/image081.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Решим матричное уравнение <span style='position:
+relative;top:2.0pt'><img width=56 height=17 src="СЛУ.files/image069.png"></span>.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Составим обратную матрицу <span style='position:
+relative;top:2.0pt'><img width=25 height=20 src="СЛУ.files/image070.png"></span>.</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=183 height=75
+src="СЛУ.files/image082.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Выпишем все алгебраические дополнения для данной
+матрицы.</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:15.0pt'><img width=391 height=48
+src="СЛУ.files/image083.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:15.0pt'><img width=393 height=48
+src="СЛУ.files/image084.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:15.0pt'><img width=393 height=48
+src="СЛУ.files/image085.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Составим матрицу <span style='position:relative;
+top:2.0pt'><img width=25 height=20 src="СЛУ.files/image070.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><span
+style='position:relative;top:25.0pt'><img width=168 height=75
+src="СЛУ.files/image086.png"></span></p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Решим  матричное уравнение</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'><img width=332
+height=149 src="СЛУ.files/image087.png" align=left hspace=12><br>
+<br>
+</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 align=center style='margin:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:21.25pt;line-height:normal'>&nbsp;</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Отсюда получаем решение системы:</p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'><span style='position:relative;top:5.0pt'><img
+width=124 height=21 src="СЛУ.files/image088.png"></span></p>
+
+<p class=MsoBodyTextIndent2 style='margin:0cm;margin-bottom:.0001pt;text-indent:
+21.25pt;line-height:normal'>Ответ:<span style='position:relative;top:5.0pt'><img
+width=49 height=23 src="СЛУ.files/image089.png"></span> </p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>
